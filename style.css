@@ -1,0 +1,22 @@
+
+.calculadora{
+    width: 400px;
+}
+.display {
+    width: 100%;
+    text-align: right;
+    font-size: 2em;
+    box-sizing: border-box;
+}
+.btn {
+    background-color: #dfdfdf;
+    width: 100%;
+    font-size: 1em;
+    height: 50px;
+    border: none;
+}
+
+btn:hover{
+    background-color: #8f8f8f;
+    cursor: pointer;
+}
