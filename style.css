@@ -16,7 +16,7 @@
     border: none;
 }
 
-btn:hover{
+.btn:hover{
     background-color: #8f8f8f;
     cursor: pointer;
 }
