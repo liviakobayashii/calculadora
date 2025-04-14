@@ -1,22 +1,41 @@
+body {
+  background-color: rgb(240, 233, 242);
+}
 
-.calculadora{
-    width: 400px;
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#card {
+  background-color: rgb(226, 152, 243);
+  padding: 25px;
+  border-radius: 8px;
+}
+.calculadora {
+  width: 250px;
+}
+h1 {
+  font-size: 2em;
 }
 .display {
-    width: 100%;
-    text-align: right;
-    font-size: 2em;
-    box-sizing: border-box;
+  width: 100%;
+  text-align: right;
+  font-size: 2em;
+  box-sizing: border-box;
 }
 .btn {
-    background-color: #dfdfdf;
-    width: 100%;
-    font-size: 1em;
-    height: 50px;
-    border: none;
+  background-color: #dfdfdf;
+  width: 100%;
+  font-size: 1em;
+  height: 50px;
+  border: none;
 }
 
-.btn:hover{
-    background-color: #8f8f8f;
-    cursor: pointer;
+.btn:hover {
+  background-color: #8f8f8f;
+  cursor: pointer;
 }
